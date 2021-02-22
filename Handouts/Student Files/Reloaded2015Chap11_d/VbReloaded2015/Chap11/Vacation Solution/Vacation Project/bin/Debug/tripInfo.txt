@@ -1,0 +1,10 @@
+Cancun#1300#2300
+Cozumel#1400#2500
+Los Cabos#2075#3700
+Antigua#2200#3700
+Aruba#1922#3100
+Grand Bahama Island#1800#3000
+Jamaica#1025#1600
+Nassau#1900#3000
+St. Martin/Maartin#2200#3800
+St. Thomas#3800#6800

@@ -1,0 +1,11 @@
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\bin\Debug\RepCustomerWithXML.exe.config
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\bin\Debug\RepCustomerWithXML.exe
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\bin\Debug\RepCustomerWithXML.pdb
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\bin\Debug\MyExampleClasses.dll
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\bin\Debug\MyExampleClasses.pdb
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\obj\Debug\RepCustomerWithXML.csprojResolveAssemblyReference.cache
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\obj\Debug\RepCustomerWithXML.Form1.resources
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\obj\Debug\RepCustomerWithXML.Properties.Resources.resources
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\obj\Debug\RepCustomerWithXML.csproj.GenerateResource.Cache
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\obj\Debug\RepCustomerWithXML.exe
+C:\IHCC\Advanced.NET\RepCustomerWithXML\RepCustomerWithXML\obj\Debug\RepCustomerWithXML.pdb

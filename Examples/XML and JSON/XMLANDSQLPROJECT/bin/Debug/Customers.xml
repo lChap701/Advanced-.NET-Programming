@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="customerStyle.xsl"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <CNum>148</CNum>
+    <CName>Al's Appliance and Sport</CName>
+    <CStreet>2837 Greenway</CStreet>
+    <CCity>Fillmore</CCity>
+    <CState>FL</CState>
+    <CZip>33336</CZip>
+    <CBalance>6550</CBalance>
+    <CCrLimit>7500</CCrLimit>
+    <CRepNum>20</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>282</CNum>
+    <CName>Brooking's Direct</CName>
+    <CStreet>3827 Devon</CStreet>
+    <CCity>Grove</CCity>
+    <CState>FL</CState>
+    <CZip>33321</CZip>
+    <CBalance>431.5</CBalance>
+    <CCrLimit>10000</CCrLimit>
+    <CRepNum>35</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>356</CNum>
+    <CName>Ferguson's</CName>
+    <CStreet>382 Wildwood</CStreet>
+    <CCity>Northfield</CCity>
+    <CState>FL</CState>
+    <CZip>33146</CZip>
+    <CBalance>5785</CBalance>
+    <CCrLimit>7500</CCrLimit>
+    <CRepNum>65</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>408</CNum>
+    <CName>The Everything Shop</CName>
+    <CStreet>1828 Raven</CStreet>
+    <CCity>Crystal</CCity>
+    <CState>FL</CState>
+    <CZip>33503</CZip>
+    <CBalance>5285.25</CBalance>
+    <CCrLimit>5000</CCrLimit>
+    <CRepNum>35</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>462</CNum>
+    <CName>Bargains Galore</CName>
+    <CStreet>3829 Central</CStreet>
+    <CCity>Grove</CCity>
+    <CState>FL</CState>
+    <CZip>33321</CZip>
+    <CBalance>3412</CBalance>
+    <CCrLimit>10000</CCrLimit>
+    <CRepNum>65</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>524</CNum>
+    <CName>Kline's</CName>
+    <CStreet>838 Ridgeland</CStreet>
+    <CCity>Fillmore</CCity>
+    <CState>FL</CState>
+    <CZip>33336</CZip>
+    <CBalance>12762</CBalance>
+    <CCrLimit>15000</CCrLimit>
+    <CRepNum>20</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>608</CNum>
+    <CName>Johnson's Department Store</CName>
+    <CStreet>372 Oxford</CStreet>
+    <CCity>Sheldon</CCity>
+    <CState>FL</CState>
+    <CZip>33553</CZip>
+    <CBalance>2106</CBalance>
+    <CCrLimit>10000</CCrLimit>
+    <CRepNum>65</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>687</CNum>
+    <CName>Lee's Sport and Appliance</CName>
+    <CStreet>282 Evergreen</CStreet>
+    <CCity>Altonville</CCity>
+    <CState>FL</CState>
+    <CZip>32543</CZip>
+    <CBalance>2851</CBalance>
+    <CCrLimit>5000</CCrLimit>
+    <CRepNum>35</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>725</CNum>
+    <CName>Deerfield's Four Seasons</CName>
+    <CStreet>282 Columbia</CStreet>
+    <CCity>Sheldon</CCity>
+    <CState>FL</CState>
+    <CZip>33553</CZip>
+    <CBalance>248</CBalance>
+    <CCrLimit>7500</CCrLimit>
+    <CRepNum>35</CRepNum>
+  </Customer>
+  <Customer>
+    <CNum>842</CNum>
+    <CName>All Season</CName>
+    <CStreet>28 Lakeview</CStreet>
+    <CCity>Grove</CCity>
+    <CState>FL</CState>
+    <CZip>33321</CZip>
+    <CBalance>8221</CBalance>
+    <CCrLimit>7500</CCrLimit>
+    <CRepNum>20</CRepNum>
+  </Customer>
+</ArrayOfCustomer>

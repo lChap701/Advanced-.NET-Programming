@@ -1,4 +1,4 @@
-﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CheapLoans.aspx.cs" Inherits="CheapLoansProject.CheapLoans" UnobtrusiveValidationMode="None" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CheapLoans.aspx.cs" Inherits="CheapLoansProject.CheapLoans" UnobtrusiveValidationMode="None" %>
 
 <!DOCTYPE html>
 
@@ -11,6 +11,17 @@
             width: 50%;
         }
 
+            #cheapLoansForm #Reset {
+                background: #59b300;
+                border-color: #408000;
+            }
+
+                #cheapLoansForm #Reset:hover,
+                #cheapLoansForm #Reset:focus {
+                    background: #7400e6;
+                    border-color: #5a00b3;
+                }
+
         .error-msg-container {
             position: relative;
         }
@@ -21,7 +32,7 @@
         #RangeValidatorNumPayments {
             position: absolute;
             left: 0;
-        }      
+        }
 
         #Submit {
             background: #00b300;
@@ -32,17 +43,6 @@
             #Submit:focus {
                 background: #800080;
                 border-color: #340034;
-            }
-
-        #Reset {
-            background: #59b300;
-            border-color: #408000;
-        }
-
-            #Reset:hover,
-            #Reset:focus {
-                background: #9a009a;
-                border-color: #5a00b3;
             }
     </style>
 </head>

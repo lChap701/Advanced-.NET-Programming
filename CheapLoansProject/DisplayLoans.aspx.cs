@@ -20,18 +20,10 @@ namespace CheapLoansProject
         /// <param name="e">Represents the event that occurred</param>
         protected void Page_Load(object sender, EventArgs e)
         {
-            double total = 0.00;
-
-            // Gets all of the loan amounts
-            var rows = GridViewLoans.Rows.Cast<GridViewRow>()
-                .Where(r => r.Cells[3].Text.Contains("$")).ToList();
-
-            // Loops through all of the rows in the GridView
-            foreach (GridViewRow row in rows)
-            {
-                // Accumlates the total loan amout
-                total += double.Parse(row.Cells[3].Text.Replace("$", "").Replace(",", ""));
-            }
+            // Gets the sum all of the loan amounts
+            DataView view = (DataView)SqlDataSourceCheapLoans.Select(DataSourceSelectArguments.Empty);
+            DataTable table = view.ToTable();
+            decimal total = table.AsEnumerable().Sum(t => t.Field<decimal>("LoanAmount"));
 
             // Displays the total
             Total.Text = total.ToString("#,###,###,###,###,##0.00");

@@ -1,5 +1,5 @@
 /************ Note: You will need to create a database called "TAL_Distributors" *************/
-/**** Then, You will need to run a SQL script in the "Handouts" folder called "CreateTAL" ****/
+/********** You will also need to run a SQL script called "Create_TAL_In_SQL_Server" *********/
 USE [TAL_Distributors]
 GO
 

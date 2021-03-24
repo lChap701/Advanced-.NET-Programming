@@ -558,6 +558,12 @@ GROUP BY o.[CUSTOMER_NUM], [CUSTOMER_NAME], ol.[ORDER_NUM], [ORDER_DATE]</Comman
   <ReportParameters>
     <ReportParameter Name="ORDER_DATE">
       <DataType>DateTime</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>OrderDatesDataSet</DataSetName>
+          <ValueField>ORDER_DATE</ValueField>
+        </DataSetReference>
+      </DefaultValue>
       <Prompt>Select an order date:</Prompt>
       <ValidValues>
         <DataSetReference>

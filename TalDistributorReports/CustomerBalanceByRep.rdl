@@ -14,7 +14,7 @@
       <Query>
         <DataSourceName>TAL_Distributors</DataSourceName>
         <CommandText>SELECT RTRIM([CUSTOMER_NAME]) AS CustomerName, [BALANCE], [LAST_NAME]
-FROM [CUSTOMER] c JOIN [REP] r ON c.[REP_NUM] = r.[REP_NUM]</CommandText>
+FROM [TAL_CUSTOMER] c JOIN [TAL_REP] r ON c.[REP_NUM] = r.[REP_NUM]</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>

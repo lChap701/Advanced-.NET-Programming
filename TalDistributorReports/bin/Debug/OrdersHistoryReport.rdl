@@ -19,8 +19,8 @@
           </QueryParameter>
         </QueryParameters>
         <CommandText>SELECT o.[CUSTOMER_NUM], RTRIM([CUSTOMER_NAME]) AS CustomerName, ol.[ORDER_NUM], [ORDER_DATE], SUM([QUOTED_PRICE] * [NUM_ORDERED]) AS TotalCost
-FROM [CUSTOMER] c JOIN [ORDERS] o ON c.[CUSTOMER_NUM] = o.[CUSTOMER_NUM]
-JOIN [ORDER_LINE] ol ON o.[ORDER_NUM] = ol.[ORDER_NUM]
+FROM [TAL_CUSTOMER] c JOIN [TAL_ORDERS] o ON c.[CUSTOMER_NUM] = o.[CUSTOMER_NUM]
+JOIN [TAL_ORDER_LINE] ol ON o.[ORDER_NUM] = ol.[ORDER_NUM]
 WHERE [ORDER_DATE] = @ORDER_DATE
 GROUP BY o.[CUSTOMER_NUM], [CUSTOMER_NAME], ol.[ORDER_NUM], [ORDER_DATE]</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
@@ -51,7 +51,9 @@ GROUP BY o.[CUSTOMER_NUM], [CUSTOMER_NAME], ol.[ORDER_NUM], [ORDER_DATE]</Comman
     <DataSet Name="OrderDatesDataSet">
       <Query>
         <DataSourceName>TAL_Distributors</DataSourceName>
-        <CommandText>SELECT DISTINCT([ORDER_DATE]) FROM [ORDERS]</CommandText>
+        <CommandText>SELECT DISTINCT ORDER_DATE
+FROM            TAL_ORDERS</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
         <Field Name="ORDER_DATE">

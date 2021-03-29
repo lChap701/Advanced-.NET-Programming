@@ -1,9 +1,9 @@
-/************ Note: You will need to create a database called "TAL_Distributors" *************/
-/********** You will also need to run a SQL script called "Create_TAL_In_SQL_Server" *********/
+/************* Note: You will need to create a database called "TAL_Distributors" ************/
+/******** Note: Run a script called "CreateTAL" which is found in the Handouts folder ********/
 USE [TAL_Distributors]
 GO
 
-/****** Object: SqlProcedure [dbo].[ProcOrderSummary] Script Date: 3/18/2021 8:38:03 PM ******/
+/****** Object: SqlProcedure [dbo].[ProcOrderSummary] Script Date: 3/29/2021 8:21:56 AM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -20,13 +20,13 @@ AS
 	IF @pItem IS NULL 
 		BEGIN
 			SELECT ol.[ITEM_NUM], [DESCRIPTION], SUM([NUM_ORDERED]) AS TotalQuantity, SUM([NUM_ORDERED] * [QUOTED_PRICE]) AS TotalCost 
-			FROM [ITEM] i JOIN [ORDER_LINE] ol ON i.[ITEM_NUM] = ol.[ITEM_NUM]
+			FROM [TAL_ITEM] i JOIN [TAL_ORDER_LINE] ol ON i.[ITEM_NUM] = ol.[ITEM_NUM]
 			GROUP BY ol.[ITEM_NUM], [DESCRIPTION]
 		END
 	ELSE
 		BEGIN
 			SELECT ol.[ITEM_NUM], [DESCRIPTION], SUM([NUM_ORDERED]) AS TotalQuantity, SUM([NUM_ORDERED] * [QUOTED_PRICE]) AS TotalCost 
-			FROM [ITEM] i JOIN [ORDER_LINE] ol ON i.[ITEM_NUM] = ol.[ITEM_NUM]
+			FROM [TAL_ITEM] i JOIN [TAL_ORDER_LINE] ol ON i.[ITEM_NUM] = ol.[ITEM_NUM]
 			WHERE ol.[ITEM_NUM] = @pItem
 			GROUP BY ol.[ITEM_NUM], [DESCRIPTION]
 		END

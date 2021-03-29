@@ -1,3 +1,4 @@
+/************* Note: You will need to create a database called "TAL_Distributors" ************/
 CREATE TABLE TAL_REP
 (REP_NUM CHAR(2) PRIMARY KEY,
 LAST_NAME CHAR(15),

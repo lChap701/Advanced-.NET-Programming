@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -23,7 +22,37 @@ namespace CheapLoansProjectPart4._5
         /// <param name="e">Represents the event that occurred</param>
         protected void Page_Load(object sender, EventArgs e)
         {
+            // Calls validation on PostBack to determine if the hidden field should be updated
+            if (IsPostBack)
+            {
+                Validate();
+
+                if (IsValid && SortSelectCheck())
+                {
+                    // Sets the value of the hidden field
+                    CustNameHiddenField.Value = CustName.Text;
+                }
+            }
+
             LoanGridViewCheck();
+        }
+
+        /// <summary>
+        /// Checks if a row is being selected or the GridView is being sorted
+        /// </summary>
+        /// <returns>Returns a boolean value</returns>
+        bool SortSelectCheck()
+        {
+            // Checks __EVENTARGUMENT to determine if the GridView is being sorted or a row is being selected
+            if (!Request.Params.Get("__EVENTARGUMENT").Contains("Sort") && 
+                !Request.Params.Get("__EVENTARGUMENT").Contains("Select"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         /// <summary>
@@ -56,7 +85,7 @@ namespace CheapLoansProjectPart4._5
 
                 ClientScript.RegisterStartupScript(GetType(), "ScrollScript", script, true);
             }
-            else if (!ClientScript.IsStartupScriptRegistered(GetType(), "RemoveScript") && 
+            else if (!ClientScript.IsStartupScriptRegistered(GetType(), "RemoveScript") &&
                 LoansGridView.Rows.Count <= 6)
             {
                 string script = "document.getElementsByClassName('col')[0].id = '';\n";
@@ -87,10 +116,9 @@ namespace CheapLoansProjectPart4._5
         protected void LoansGridView_Sorting(object sender, GridViewSortEventArgs e)
         {
             // Gets all loans
-            var loans = JsonConvert.DeserializeObject<List<Loan>>(loanService.GetLoanByCustomer(CustName.Text));
+            var loans = JsonConvert.DeserializeObject<List<Loan>>(loanService.GetLoanByCustomer(CustNameHiddenField.Value));
 
-            if (Session["PrevSortDirection"] != null &&
-                !string.IsNullOrEmpty(e.SortExpression))
+            if (Session["PrevSortDirection"] != null && !string.IsNullOrEmpty(e.SortExpression))
             {
                 e.SortDirection = Session["PrevSortDirection"].ToString().Equals("desc") ? SortDirection.Descending
                 : SortDirection.Ascending;
@@ -179,19 +207,25 @@ namespace CheapLoansProjectPart4._5
                     // Displays a label that displays a message
                     Msg.Text = loansJson;
                     Msg.Visible = true;
+
+                    // Clears GridView
                     LoansGridView.DataSource = null;
                     LoansGridView.DataBind();
                 }
                 else
                 {
+                    // Hides the message
                     Msg.Visible = false;
-                    LoansGridView.Visible = true;
 
                     // Displays the data that is retrieved by the service in the GridView
                     LoansGridView.DataSource = JsonConvert.DeserializeObject<List<Loan>>(loansJson);
                     LoansGridView.DataBind();
 
                     LoanGridViewCheck();
+
+                    // Displays the JSON data in the console
+                    ClientScript.RegisterClientScriptBlock(GetType(), "JSONScript",
+                        "console.log('JSON: ' + JSON.stringify(" + loansJson + "));", true);
                 }
             }
             catch (Exception ex)

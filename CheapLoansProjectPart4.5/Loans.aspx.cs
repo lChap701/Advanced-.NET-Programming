@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -182,9 +181,14 @@ namespace CheapLoansProjectPart4._5
                     // Displays a label that displays a message
                     Msg.Text = loansJson;
                     Msg.Visible = true;
+
+                    // Clears GridView
+                    LoansGridView.DataSource = null;
+                    LoansGridView.DataBind();
                 }
                 else
                 {
+                    // Hides the message
                     Msg.Visible = false;
 
                     // Displays the data that is retrieved by the service in the GridView
@@ -192,6 +196,10 @@ namespace CheapLoansProjectPart4._5
                     LoansGridView.DataBind();
 
                     LoanGridViewCheck();
+
+                    // Displays the JSON data in the console
+                    ClientScript.RegisterClientScriptBlock(GetType(), "JSONScript", 
+                        "console.log('JSON: ' + JSON.stringify(" + loansJson + "));", true);
                 }
             }
             catch (Exception ex)

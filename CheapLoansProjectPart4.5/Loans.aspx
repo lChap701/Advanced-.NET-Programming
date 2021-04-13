@@ -35,17 +35,16 @@
                     OnSorting="LoansGridView_Sorting" OnSelectedIndexChanged="LoansGridView_SelectedIndexChanged">
                     <Columns>
                         <asp:BoundField DataField="LoanNum" HeaderText="Loan Number" InsertVisible="false" 
-                            ReadOnly="True" SortExpression="LoanNum" DataFormatString="{0:D11}" 
-                            ItemStyle-HorizontalAlign="Center" />
+                            ReadOnly="true" SortExpression="LoanNum" DataFormatString="{0:D11}" />
                         <asp:BoundField DataField="CustName" HeaderText="Customer Name" ReadOnly="true" 
-                            SortExpression="CustName" ItemStyle-HorizontalAlign="Center" />
+                            SortExpression="CustName" />
                         <asp:BoundField DataField="LoanAmount" HeaderText="Loan Amount" ReadOnly="true" 
                             SortExpression="LoanAmount" DataFormatString="{0:C}" />
                         <asp:BoundField DataField="AnnualIntRate" HeaderText="Annual Interest Rate" 
-                            ReadOnly="True" SortExpression="AnnualIntRate" DataFormatString="{0:P1}"
+                            ReadOnly="true" SortExpression="AnnualIntRate" DataFormatString="{0:P1}"
                             ItemStyle-HorizontalAlign="Right" />
                         <asp:BoundField DataField="NumPayments" HeaderText="Number of Payments" 
-                            ReadOnly="True" SortExpression="NumPayments" DataFormatString="{0:D}"
+                            ReadOnly="true" SortExpression="NumPayments" DataFormatString="{0:D}"
                             ItemStyle-HorizontalAlign="Right" />
                     </Columns>
 

@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Loans By Customer</title>
     <link href="css/Styles.css" rel="stylesheet" />
+    <script defer src="js/AddMargin.js"></script>
 </head>
 <body>
     <form id="customer" runat="server">
@@ -35,18 +36,17 @@
                     AutoGenerateColumns="false" AutoGenerateSelectButton="true" DataKeyNames="LoanNum"
                     OnSorting="LoansGridView_Sorting" OnSelectedIndexChanged="LoansGridView_SelectedIndexChanged">
                     <Columns>
-                        <asp:BoundField DataField="LoanNum" HeaderText="Loan Number" InsertVisible="false" 
-                            ReadOnly="True" SortExpression="LoanNum" DataFormatString="{0:D11}" 
-                            ItemStyle-HorizontalAlign="Center" />
-                        <asp:BoundField DataField="CustName" HeaderText="Customer Name" ReadOnly="true" 
-                            SortExpression="CustName" ItemStyle-HorizontalAlign="Center" />
-                        <asp:BoundField DataField="LoanAmount" HeaderText="Loan Amount" ReadOnly="true" 
+                        <asp:BoundField DataField="LoanNum" HeaderText="Loan Number" InsertVisible="false"
+                            ReadOnly="true" SortExpression="LoanNum" DataFormatString="{0:D11}" />
+                        <asp:BoundField DataField="CustName" HeaderText="Customer Name" ReadOnly="true"
+                            SortExpression="CustName" />
+                        <asp:BoundField DataField="LoanAmount" HeaderText="Loan Amount" ReadOnly="true"
                             SortExpression="LoanAmount" DataFormatString="{0:C}" />
-                        <asp:BoundField DataField="AnnualIntRate" HeaderText="Annual Interest Rate" 
-                            ReadOnly="True" SortExpression="AnnualIntRate" DataFormatString="{0:P1}"
+                        <asp:BoundField DataField="AnnualIntRate" HeaderText="Annual Interest Rate"
+                            ReadOnly="true" SortExpression="AnnualIntRate" DataFormatString="{0:P1}"
                             ItemStyle-HorizontalAlign="Right" />
-                        <asp:BoundField DataField="NumPayments" HeaderText="Number of Payments" 
-                            ReadOnly="True" SortExpression="NumPayments" DataFormatString="{0:D}"
+                        <asp:BoundField DataField="NumPayments" HeaderText="Number of Payments"
+                            ReadOnly="true" SortExpression="NumPayments" DataFormatString="{0:D}"
                             ItemStyle-HorizontalAlign="Right" />
                     </Columns>
 
@@ -58,18 +58,18 @@
                 </asp:GridView>
             </div>
 
-            <div class="col-small">
-                <asp:Label ID="CustNameLabel" runat="server" Text="Customer Name" Font-Bold="true" />
-                <asp:TextBox ID="CustName" runat="server" 
-                    ToolTip="At least one letter (uppercase or lowercase) or one period (.) is required" />
-
-                <div class="error-msg-container">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidatorCustName" runat="server" 
-                        ErrorMessage="Required" ControlToValidate="CustName" ForeColor="Red" />
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidatorCustName" runat="server"
-                        ErrorMessage="Only letters (uppercase or lowercase), periods (.), and spaces are allowed"
-                        ControlToValidate="CustName" ValidationExpression="[a-zA-Z. ]+" ForeColor="Red"
-                        />
+            <div class="col">
+                <div id="input-container">
+                    <asp:Label ID="CustNameLabel" runat="server" Text="Customer Name" Font-Bold="true" />
+                    <asp:TextBox ID="CustName" runat="server"
+                        ToolTip="At least one letter (uppercase or lowercase) or one period is required" />
+                    <div class="error-msg-container">
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidatorCustName" runat="server"
+                            ErrorMessage="Required" ControlToValidate="CustName" ForeColor="Red" />
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidatorCustName" runat="server"
+                            ErrorMessage="Only letters, periods, and spaces in between characters are allowed"
+                            ControlToValidate="CustName" ValidationExpression="[a-zA-Z. ]+" ForeColor="Red" />
+                    </div>
                 </div>
             </div>
 
@@ -82,6 +82,8 @@
                         OnClick="Reset_Click" Enabled="false" />
                 </div>
             </div>
+
+            <asp:HiddenField ID="CustNameHiddenField" runat="server" />
         </div>
     </form>
 </body>

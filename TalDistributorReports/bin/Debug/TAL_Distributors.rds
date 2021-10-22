@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TAL_Distributors">
   <ConnectionProperties>
@@ -6,4 +7,14 @@
     <IntegratedSecurity>true</IntegratedSecurity>
   </ConnectionProperties>
   <DataSourceID>12500789-0a25-40c0-bd1e-84a834cbaafb</DataSourceID>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TAL_Distributors">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TAL_Distributors</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>12500789-0a25-40c0-bd1e-84a834cbaafb</DataSourceID>
+>>>>>>> parent of d4ec916 (Reorganized)
 </RptDataSource>

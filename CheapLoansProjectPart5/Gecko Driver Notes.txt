@@ -1,1 +1,0 @@
-If you are having issues running gecko driver tests, then run them in the debugger.

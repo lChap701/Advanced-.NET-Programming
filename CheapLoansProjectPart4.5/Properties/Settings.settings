@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CheapLoansProjectPart4._5.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="CheapLoansProjectPart4_5_localhost_LoanService" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">https://localhost:44364/LoanService.asmx</Value>
-    </Setting>
-  </Settings>
-</SettingsFile>

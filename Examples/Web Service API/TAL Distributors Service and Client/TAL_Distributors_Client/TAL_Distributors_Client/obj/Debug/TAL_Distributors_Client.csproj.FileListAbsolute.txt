@@ -1,0 +1,24 @@
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\TAL_Distributors_Client.exe.config
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\TAL_Distributors_Client.exe
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\TAL_Distributors_Client.pdb
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.csprojAssemblyReference.cache
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.Form1.resources
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.Properties.Resources.resources
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.csproj.GenerateResource.cache
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.csproj.CoreCompileInputs.cache
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.exe
+C:\IHCC\Advanced.NET\Examples\Web API\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.pdb
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\TAL_Distributors_Client.exe.config
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\TAL_Distributors_Client.exe
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\TAL_Distributors_Client.pdb
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\Newtonsoft.Json.dll
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\Newtonsoft.Json.pdb
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\bin\Debug\Newtonsoft.Json.xml
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.csprojAssemblyReference.cache
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.Form1.resources
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.Properties.Resources.resources
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.csproj.GenerateResource.cache
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.csproj.CoreCompileInputs.cache
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.csproj.CopyComplete
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.exe
+C:\IHCC\Advanced.NET\Examples\Web Services (API)\TAL_Distributors_Client\TAL_Distributors_Client\obj\Debug\TAL_Distributors_Client.pdb

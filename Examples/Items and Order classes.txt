@@ -1,0 +1,17 @@
+Create a class for Items
+Item number integer, Item description string, item quantity integer, item price double
+Default constructor (set to default values: item number = 99999, description = "Widget", quantity = 1, price = 9.99)
+Overloaded constructor (accepts all class fields)
+Method to calculate inventory value (calculate quantity * price and return)
+Use auto-implemented properties for item number and description
+Use properties for quantity (must be > 0) and price (price must be between .01 and 9999.99)
+
+
+
+Create a class for Orders
+Order number as integer, order date as date, customer number as integer, list of items
+default constructor (set to default values: order number = 9999, order date = current date, customer number = 9999, list of items = nothing)
+overloaded constructor (accepts all class fields)
+use auto-implemented property for order number, customer number and list of items
+use property for order date (date is >= current date)
+Method to calculate and return the number of days elapsed since the order date

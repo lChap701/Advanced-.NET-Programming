@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model2" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Fish">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cost" Type="Decimal" Precision="8" Scale="2" />
+    <Property Name="Type" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="FishType" Relationship="Self.FK_Fish_Fish_Type" FromRole="Fish" ToRole="FishType" />
+  </EntityType>
+  <EntityType Name="FishType">
+    <Key>
+      <PropertyRef Name="Type" />
+    </Key>
+    <Property Name="Type" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Fish" Relationship="Self.FK_Fish_Fish_Type" FromRole="FishType" ToRole="Fish" />
+  </EntityType>
+  <Association Name="FK_Fish_Fish_Type">
+    <End Role="FishType" Type="Self.FishType" Multiplicity="0..1" />
+    <End Role="Fish" Type="Self.Fish" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FishType">
+        <PropertyRef Name="Type" />
+      </Principal>
+      <Dependent Role="Fish">
+        <PropertyRef Name="Type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Fish" EntityType="Self.Fish" />
+    <EntitySet Name="FishTypes" EntityType="Self.FishType" />
+    <AssociationSet Name="FK_Fish_Fish_Type" Association="Self.FK_Fish_Fish_Type">
+      <End Role="FishType" EntitySet="FishTypes" />
+      <End Role="Fish" EntitySet="Fish" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

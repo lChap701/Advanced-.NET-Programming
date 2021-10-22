@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MoviesDatabaseExample
+</name>
+</assembly>
+<members>
+<member name="T:MoviesDatabaseExample.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MoviesDatabaseExample.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MoviesDatabaseExample.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblGamesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblRatingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.XBGamesQueryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblJustNewGamesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblGames1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblGamesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblRatingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.XBGamesQueryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblJustNewGamesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblGames1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblGamesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblRatingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.XBGamesQueryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblJustNewGamesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSet.tblGames1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.tblGamesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.tblRatingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.XBGamesQueryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.tblJustNewGamesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.tblGames1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MoviesDatabaseExample.GamesRevisedDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MoviesDatabaseExample.GamesRevisedDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MoviesDatabaseExample.GamesRevisedDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager.UpdateAll(MoviesDatabaseExample.GamesRevisedDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MoviesDatabaseExample.GamesRevisedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

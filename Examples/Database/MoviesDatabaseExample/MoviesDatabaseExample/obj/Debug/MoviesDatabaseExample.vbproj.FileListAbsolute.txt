@@ -1,0 +1,26 @@
+C:\Users\kthrockm\AppData\Local\Temporary Projects\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.exe.config
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.exe.config
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.vbprojResolveAssemblyReference.cache
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.Form1.resources
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.Resources.resources
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.vbproj.GenerateResource.Cache
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.xml
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.exe
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.pdb
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.xml
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.exe
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.pdb
+C:\IHCC\Advanced.NET\Examples\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.Form2.resources
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.exe.config
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.exe
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.pdb
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\bin\Debug\MoviesDatabaseExample.xml
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.vbprojAssemblyReference.cache
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.Form1.resources
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.Form2.resources
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.Resources.resources
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.vbproj.GenerateResource.cache
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.vbproj.CoreCompileInputs.cache
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.exe
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.xml
+C:\IHCC\Advanced.NET\Examples\VB\MoviesDatabaseExample\MoviesDatabaseExample\obj\Debug\MoviesDatabaseExample.pdb

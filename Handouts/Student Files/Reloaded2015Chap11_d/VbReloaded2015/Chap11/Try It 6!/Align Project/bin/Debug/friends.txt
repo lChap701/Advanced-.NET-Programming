@@ -1,0 +1,6 @@
+Name           City
+George         Las Vegas
+Celia          Sacramento
+Marita         Tulsa
+Carolyn        Miami
+Joe            Nashville
